@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(7, 102, 94);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 100px;
+}
+h1{
+    color:white;
+    font-size: 40px;
+}
+span{
+    border-bottom: 4px solid green;
+    
+}
+.input-field{
+    background-color: white;
+    border-radius: 5px;
+}
+input{
+    border: none;
+    padding: 15px;
+    border-radius:5px;
+    width: 18rem;
+    outline: none;
+    font-size: 20px;
+}
+.copy-btn{
+    border: none;
+    color: green;
+    font-size: 25px;
+    cursor: pointer;
+}
+.generate-btn{
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
